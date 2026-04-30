@@ -24,8 +24,9 @@ logo into `public/logo.svg` and replace the inline SVG with:
 
 Defined in `app/globals.css` via Tailwind v4 `@theme` tokens:
 
-- `--color-ink` `#0b0f0d` — background
-- `--color-moss` `#6f8a6a` — secondary green
-- `--color-moss-bright` `#9bb88a` — primary text/accent
+- `--color-ink` `#000000` — background
+- `--color-fuel` `#3DDC4F` — primary brand green (flame mark, links)
+- `--color-fuel-deep` `#22B244` — hover/secondary
+- `--color-bone` `#ffffff` — primary text
 
-Tune to match `exhale.studio` once the brand colors are confirmed.
+Sampled from screenshots of the live site; tune to exact brand hex once confirmed.
