@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ink: #0b0f0d;
+  --color-ink-2: #111714;
+  --color-moss: #6f8a6a;
+  --color-moss-bright: #9bb88a;
+  --font-sans: ui-sans-serif, system-ui, -apple-system, "Helvetica Neue", Arial, sans-serif;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: var(--color-ink);
+  color: var(--color-moss-bright);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  overflow: hidden;
+  overscroll-behavior: none;
+}

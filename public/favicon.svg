@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <rect width="64" height="64" rx="12" fill="#0b0f0d"/>
+  <text x="50%" y="56%" text-anchor="middle" dominant-baseline="middle"
+    font-family="ui-serif, Georgia, serif" font-style="italic" font-weight="300"
+    font-size="42" fill="#9bb88a">e</text>
+</svg>
