@@ -11,12 +11,12 @@ export default function Home() {
 
       <div className="relative z-10 flex h-full w-full flex-col items-center justify-center px-6 text-center">
         <Image
-          src="/logo.svg"
+          src="/exhale-logo-white.png"
           alt="Exhale Studios"
-          width={420}
-          height={140}
+          width={909}
+          height={866}
           priority
-          className="h-28 w-auto sm:h-32 md:h-40"
+          className="h-40 w-auto sm:h-52 md:h-64"
         />
         <p className="mt-8 text-sm font-light tracking-wide text-white/60 sm:text-base">
           Probably the people you&rsquo;re looking for

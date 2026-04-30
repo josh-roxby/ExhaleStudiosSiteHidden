@@ -11,9 +11,9 @@ npm run dev
 
 Open http://localhost:3000.
 
-## Drop in the real logo
+## Brand logo
 
-Replace `public/logo.svg` with the brand logo (SVG preferred for crisp scaling; PNG also works — just update the `src` and `width`/`height` props in `app/page.tsx`). The page renders the file via `next/image` at `~h-28 → h-40` responsive sizes.
+`public/exhale-logo-white.png` is the white wordmark rendered centered on the page via `next/image`. To swap, replace that file (or update the `src` / `width` / `height` props in `app/page.tsx`).
 
 ## Palette
 
