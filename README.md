@@ -1,6 +1,6 @@
 # Exhale Studios — Holding Page
 
-Single-page Next.js 15 (App Router) + Tailwind v4 holding site. Dark/green palette, no scroll.
+Single-page Next.js 15 (App Router) + Tailwind v4 holding site. Black bg, fuel-green accent, Outfit type, no scroll.
 
 ## Local
 
@@ -11,22 +11,22 @@ npm run dev
 
 Open http://localhost:3000.
 
-## Swap in the real logo
+## Drop in the real logo
 
-`app/page.tsx` renders a typographic wordmark in the `Logo` component. Drop your real
-logo into `public/logo.svg` and replace the inline SVG with:
-
-```tsx
-<img src="/logo.svg" alt="Exhale Studios" className="h-24 w-auto sm:h-28 md:h-32" />
-```
+Replace `public/logo.svg` with the brand logo (SVG preferred for crisp scaling; PNG also works — just update the `src` and `width`/`height` props in `app/page.tsx`). The page renders the file via `next/image` at `~h-28 → h-40` responsive sizes.
 
 ## Palette
 
 Defined in `app/globals.css` via Tailwind v4 `@theme` tokens:
 
 - `--color-ink` `#000000` — background
-- `--color-fuel` `#3DDC4F` — primary brand green (flame mark, links)
-- `--color-fuel-deep` `#22B244` — hover/secondary
+- `--color-fuel` `#3DDC4F` — primary brand green (Instagram hover)
+- `--color-fuel-deep` `#22B244` — secondary
 - `--color-bone` `#ffffff` — primary text
 
-Sampled from screenshots of the live site; tune to exact brand hex once confirmed.
+## Stack
+
+- Next.js 15 (App Router) + TypeScript
+- Tailwind CSS v4
+- Outfit (via `next/font/google`)
+- `lucide-react` for icons
